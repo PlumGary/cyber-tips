@@ -154,3 +154,8 @@ To perform reconnaissance on an webserver
 
 To perform LDAP enumeration on the target network 
       ldapsearch -x -h 10.10.10.25 -b "DC=domain,DC=com" "objectclass=user" cn
+      ldapsearch -h 10.10.10.25 -x -s base namingcontexts
+
+To perform DNS enumeration 
+      dnsenum www.blah.com
+
