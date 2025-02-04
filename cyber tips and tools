@@ -148,3 +148,9 @@ To scan networks
       nmap 172.16.0.0/24
       nmap 10.10.10.0/24
       nmap 192.168.0.0/24
+
+To perform reconnaissance on an webserver 
+      billcipher
+
+To perform LDAP enumeration on the target network 
+      ldapsearch -x -h 10.10.10.25 -b "DC=domain,DC=com" "objectclass=user" cn
