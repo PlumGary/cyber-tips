@@ -159,3 +159,7 @@ To perform LDAP enumeration on the target network
 To perform DNS enumeration 
       dnsenum www.blah.com
 
+To perform analysis on an apk file
+      https://sisik.eu/apk-tool
+
+
