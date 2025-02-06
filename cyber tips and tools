@@ -162,4 +162,7 @@ To perform DNS enumeration
 To perform analysis on an apk file
       https://sisik.eu/apk-tool
 
+To perform banner grabbing 
+      telnet <ip> 80
+
 
